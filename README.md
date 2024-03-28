@@ -8,7 +8,6 @@ Including some keybinds of [kickstarter](https://github.com/nvim-lua/kickstart.n
 
 This setup aims to bring the best of Vim into the flexible and powerful environment of VS Code, offering a seamless experience for those accustomed to Vim's keybindings. The configurations provided here include:
 
-- `extensions.json`: Just some default extensions i use for every profile. 
 - `keybindings.json`: Custom keybindings to mimic Vim's shortcuts.
 - `settings.json`: Various settings to customize the editor's behavior, also including shortcuts.
 
