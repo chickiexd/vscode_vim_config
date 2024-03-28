@@ -78,18 +78,11 @@ This setup aims to bring the best of Vim into the flexible and powerful environm
 
 ### File Explorer and Search Keybindings
 
-- **Focus Files Explorer**: `Ctrl+e` ➜ `workbench.files.action.focusFilesExplorer` 
-- **Focus Active Editor Group**: `Ctrl+e` ➜ `workbench.action.focusActiveEditorGroup`
+- **Open/Close Files Explorer**: `Ctrl+e` ➜ `workbench.files.action.focusFilesExplorer` `workbench.action.focusActiveEditorGroup`
 - **New File in Explorer**: `n` ➜ `explorer.newFile`
 - **Rename File in Explorer**: `r` ➜ `renameFile`
 - **New Folder in Explorer**: `Shift+n` ➜ `explorer.newFolder`
 - **Delete File in Explorer**: `d` ➜ `deleteFile`
-- **Open Search**: `Ctrl+f` ➜ `workbench.view.search` 
+- **Open/Close Search**: `Ctrl+f` ➜ `workbench.view.search` `workbench.action.focusActiveEditorGroup` 
 - **Focus Next Search Result**: `Ctrl+j` ➜ `search.action.focusNextSearchResult`
 - **Focus Previous Search Result**: `Ctrl+k` ➜ `search.action.focusPreviousSearchResult`
-- **Focus Active Editor Group from Search**: `Ctrl+f` ➜ `workbench.action.focusActiveEditorGroup` 
-
-### Disabled Commands
-
-- **Disable Quick Open**: `Ctrl+e` ➜ (removes binding for `workbench.action.quickOpen`)
-- **Disable Find**: `Ctrl+f` ➜ (removes binding for `actions.find` when editor is focused or open)

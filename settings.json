@@ -127,19 +127,19 @@
     {
       "before": [
         "leader",
-        "%"
+        "v"
       ],
       "commands": [
-        ":split"
+        ":vsplit"
       ]
     },
     {
       "before": [
         "leader",
-        "v"
+        "%"
       ],
       "commands": [
-        ":vsplit"
+        ":split"
       ]
     },
     {
@@ -384,6 +384,7 @@
     "<C-f>": false,
     "<C-p>": false,
     "<C-b>": false,
+    "<C-j>": false,
   },
   "vim.leader": "<space>",
   "editor.lineNumbers": "relative",
