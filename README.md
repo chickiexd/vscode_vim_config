@@ -2,6 +2,8 @@
 
 Welcome to my VS Code Vim Configuration Profile repository! This repo contains my personal configuration for using Vim within Visual Studio Code. It's tailored for developers who love the efficiency of Vim and wish to integrate similar workflows into VS Code.
 
+Including some keybinds of [kickstarter](https://github.com/nvim-lua/kickstart.nvim), [ThePrimagen](https://github.com/ThePrimeagen/init.lua), [Melkey](https://github.com/Melkeydev/vscode_bindings)
+
 ## Overview
 
 This setup aims to bring the best of Vim into the flexible and powerful environment of VS Code, offering a seamless experience for those accustomed to Vim's keybindings. The configurations provided here include:
@@ -83,6 +85,8 @@ This setup aims to bring the best of Vim into the flexible and powerful environm
 - **New Folder in Explorer**: `Shift+n` ➜ `explorer.newFolder`
 - **Delete File in Explorer**: `d` ➜ `deleteFile`
 - **Open Search**: `Ctrl+f` ➜ `workbench.view.search` 
+- **Focus Next Search Result**: `Ctrl+j` ➜ `search.action.focusNextSearchResult`
+- **Focus Previous Search Result**: `Ctrl+k` ➜ `search.action.focusPreviousSearchResult`
 - **Focus Active Editor Group from Search**: `Ctrl+f` ➜ `workbench.action.focusActiveEditorGroup` 
 
 ### Disabled Commands
