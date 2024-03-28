@@ -13,6 +13,10 @@ This setup aims to bring the best of Vim into the flexible and powerful environm
 
 ## Cheat-Sheet
 
+### Misc Keybindings
+
+- **Toggle Zen-Mode**: `<Ctrl+z>` ➜ `workench.action.toggleZenMode`
+
 ### Insert Mode Keybindings
 
 - **Exit Insert Mode**: `jj` ➜ `<Esc>`

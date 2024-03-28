@@ -121,5 +121,10 @@
         "key": "ctrl+k",
         "command": "search.action.focusPreviousSearchResult",
         "when": "hasSearchResult || inSearchEditor"
+    },
+    {
+        "key": "ctrl+z",
+        "command": "workbench.action.toggleZenMode",
+        "when": "!isAuxiliaryWindowFocusedContext"
     }
 ]
