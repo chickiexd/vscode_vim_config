@@ -34,8 +34,9 @@ This setup aims to bring the best of Vim into the flexible and powerful environm
 - **Focus Right Group**: `leader l` ➜ `workbench.action.focusRightGroup`
 - **Split Window**: `leader %` ➜ `:split`
 - **Vertical Split Window**: `leader v` ➜ `:vsplit`
-- **Next Buffer**: `<Shift+l>` ➜ `:bnext`
-- **Previous Buffer**: `<Shift+h>` ➜ `:bprevious`
+- **Next Buffer**: `<Ctrl+l>` ➜ `:bnext`
+- **Previous Buffer**: `<Ctrl+h>` ➜ `:bprevious`
+- **Show Hover**: `<Ctrl+k>` ➜ `editor.action.showHover`
 - **Delete Line**: `leader d` ➜ `dd`
 - **Move Down Fast**: `J` ➜ `5j`
 - **Move Up Fast**: `K` ➜ `5k`

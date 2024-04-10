@@ -13,6 +13,7 @@
     "cmap",
     "colorbar",
     "crnt",
+    "dotenv",
     "facenet",
     "figsize",
     "lastrowid",
@@ -144,7 +145,7 @@
     },
     {
       "before": [
-        "<S-l>"
+        "<C-l>"
       ],
       "commands": [
         ":bnext"
@@ -152,7 +153,7 @@
     },
     {
       "before": [
-        "<S-h>"
+        "<C-h>"
       ],
       "commands": [
         ":bprevious"
@@ -322,6 +323,14 @@
       "commands": [
         "python.execInTerminal-icon"
       ],
+    },
+    {
+      "before": [
+        "<C-k>",
+      ],
+      "commands": [
+        "editor.action.showHover"
+      ],
     }
   ],
   "vim.visualModeKeyBindings": [
@@ -398,5 +407,7 @@
     "plaintext": false,
     "markdown": false,
     "scminput": false
-  }
+  },
+  "zenMode.hideLineNumbers": false,
+  "zenMode.hideStatusBar": false
 }
